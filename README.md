@@ -3,7 +3,7 @@
 This is a guide for students to setup Git and GitHub for use with GitHub Classroom. 
 
 ### Steps for getting setup with GitHub
-1. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager) and your UBC email.
+1. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (sfazackerley, sfazack, etc) and your UBC email.
 
 2. Install Git. Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 7.2. Mac users can follow Option 1 in 7.3 if comfortable, otherwise follow Option 2
 
