@@ -3,7 +3,7 @@
 This is a guide for students to setup Git and GitHub for use with GitHub Classroom. 
 
 ### Steps for getting setup with GitHub
-1. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (sfazackerley, sfazack, etc) and your UBC email.
+1. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (rpaulson, robert-paulson, etc) and your UBC email.
 
 2. Install Git. Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 7.2. Mac users can follow Option 1 in 7.3 if comfortable, otherwise follow Option 2
 
@@ -19,7 +19,7 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
     Note you can do this as you normally would with pointing and clicking, but you can also use the shell! This is good practice if you want to use Git outside of the class, as you normally have to use the Shell to interact with Git. Sean Kross has a great guide for using the shell here--http://seankross.com/the-unix-workbench/. However, we'll show you the basic steps you need.
 
- One thing that the shell does is allow you to navigate through all of your files by typing commands, rather than using your mouse. When you open up the shell, you can type `PWD`. This tells you the directory (folder) that you are in. You can also type `ls`. This lists the directories available to you. For example when I type `PWD`, the result is `/Users/sfazkace`. This tells me that I am in my own directory inside of my computer. When I type `ls`, I see directories such as Applications, Documents, etc... I can also enter into a directory using the `cd` command. If I type `cd Documents`, then I am now inside of the Documents directory. When I type `PWD`, the result is now `/Users/sfazack/Documents`. I can go back to `/Users/sfazack` by typing `cd ..`.
+ One thing that the shell does is allow you to navigate through all of your files by typing commands, rather than using your mouse. When you open up the shell, you can type `PWD`. This tells you the directory (folder) that you are in. You can also type `ls`. This lists the directories available to you. For example when I type `PWD`, the result is `/Users/sfazkace`. This tells me that I am in my own directory inside of my computer. When I type `ls`, I see directories such as Applications, Documents, etc... I can also enter into a directory using the `cd` command. If I type `cd Documents`, then I am now inside of the Documents directory. When I type `PWD`, the result is now `/Users/rpaulson/Documents`. I can go back to `/Users/rpaulson` by typing `cd ..`.
 
     Now I want to make a directory (note I'm using directory and folder interchangeably here). I can use the `mkdir` command. To make a directory called class-directory (it's good practice to not have spaces in your folder names), I can type `mkdir class-directory`. If you type `ls`, you'll now see `class-directory` appear. You can then enter `cd class-directory` to go into the class-directory. Finally, to make the two directories that I talked about, we type `mkdir lectures` and `mkdir labs`. Here is a basic illustration of how my directory structure looks for a class titled COSC 360 taken for Winter 2017:
     
@@ -28,7 +28,7 @@ Users
 │
 │
 │
-└───sfazack
+└───rpaulson
     │
     │
     │
@@ -58,7 +58,7 @@ Users
 5.  After you make changes to the homework assignment, commit them. What are commits you ask? Commits are essentially taking a snapshot of your projects. For example, if I make changes to a code so that it prints "Hello world", and then commit them with an informative message, I can look at the history of my commits and view the code that I wrote at that time. If I made some more changes to the function that resulted in an error, I could go back to the commit where the code was originally working. This prevents you from creating several versions of your homework (homework-v1, homework-v2, ...) or from trying to remember what your code originally looked like.
 
 
-    You can do this through the shell. Navigate to the lab directory. If I am are working on lab-1, when I type `PWD` I will see `/users/sfazack/class-documents/classroom-COSC360-Winter-2017/labs/lab-1`. Now type `git add -A`, and then `git commit -m "My commit message"`. `git add` is a command that tells git which files you want to record the changes to when you make your commit. For example, if I made changes to `file1` and `file2` since my last commit, I can choose to only commit (take a snapshot of) the changes I made to `file1`. `git add -A` says to add all of the files that have changed since the last commit. If I just want to add `file1`, I would instead type `git add file1`.
+    You can do this through the shell. Navigate to the lab directory. If I am are working on lab-1, when I type `PWD` I will see `/users/rpaulson/class-documents/classroom-COSC360-Winter-2017/labs/lab-1`. Now type `git add -A`, and then `git commit -m "My commit message"`. `git add` is a command that tells git which files you want to record the changes to when you make your commit. For example, if I made changes to `file1` and `file2` since my last commit, I can choose to only commit (take a snapshot of) the changes I made to `file1`. `git add -A` says to add all of the files that have changed since the last commit. If I just want to add `file1`, I would instead type `git add file1`.
 
     Two things about committing. One, you should commit somewhat frequently. At minimum, if you're doing a homework assignment, you should make a commit each time that you've finished a question. Two, leave informative commit messages. "Added stuff" will not help you if you're looking at your commit history in a year. A message like "Added initial version of hello-world function" will be more useful.
 
