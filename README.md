@@ -36,7 +36,7 @@ Users
         │
         │
         |
-        |---classroom-COSC360-Winter-2018
+        |---classroom-COSC310-Winter-2022-T2
             |
             |
             |
@@ -58,7 +58,7 @@ Users
 5.  After you make changes to the homework assignment, commit them. What are commits you ask? Commits are essentially taking a snapshot of your projects. For example, if I make changes to a code so that it prints "Hello world", and then commit them with an informative message, I can look at the history of my commits and view the code that I wrote at that time. If I made some more changes to the function that resulted in an error, I could go back to the commit where the code was originally working. This prevents you from creating several versions of your homework (homework-v1, homework-v2, ...) or from trying to remember what your code originally looked like.
 
 
-    You can do this through the shell. Navigate to the lab directory. If I am are working on lab-1, when I type `PWD` I will see `/users/rpaulson/class-documents/classroom-COSC360-Winter-2018/labs/lab-1`. Now type `git add -A`, and then `git commit -m "My commit message"`. `git add` is a command that tells git which files you want to record the changes to when you make your commit. For example, if I made changes to `file1` and `file2` since my last commit, I can choose to only commit (take a snapshot of) the changes I made to `file1`. `git add -A` says to add all of the files that have changed since the last commit. If I just want to add `file1`, I would instead type `git add file1`.
+    You can do this through the shell. Navigate to the lab directory. If I am are working on lab-1, when I type `PWD` I will see `/users/rpaulson/class-documents/classroom-COSC310-Winter-2022-2/labs/lab-1`. Now type `git add -A`, and then `git commit -m "My commit message"`. `git add` is a command that tells git which files you want to record the changes to when you make your commit. For example, if I made changes to `file1` and `file2` since my last commit, I can choose to only commit (take a snapshot of) the changes I made to `file1`. `git add -A` says to add all of the files that have changed since the last commit. If I just want to add `file1`, I would instead type `git add file1`.
 
     Two things about committing. One, you should commit somewhat frequently. At minimum, if you're doing a homework assignment, you should make a commit each time that you've finished a question. Two, leave informative commit messages. "Added stuff" will not help you if you're looking at your commit history in a year. A message like "Added initial version of hello-world function" will be more useful.
 
@@ -72,7 +72,7 @@ Your classroom may have a repository where everyone in the class has access to i
 
     In GitHub, navigate to the shared directory. Repeat step 3 from above, where we copy the link that we will use to clone this repository. If you get an error using SSH, you should instead use HTTPS. Go back to the command line and type `git clone repo-url` where the `repo-url` is replaced with the URL you just copied. If you type `ls`, the directory should now appear.
     
-2. To pull in changes, navigate inside of this shared directory. For example, let's say the repo we just copied is called `class-materials` if you are in the `classroom-COSC360-Winter-2018` directory, and you type ls, you should see a directory called `class-materials`. Now type `cd class-materials`. You should now be inside of this directory. To get the most recent version of this directory, you simply have to type `git pull`. If you get an error about merge conflict, don't freak out! This can happen if you edit locations in files that are also changed by a professor. Professors should be doing their best to ensure this doesn't happen, but if it does, simply contact your professor or TA to get it worked out. Or even better, try to google the error message and try to fix it yourself!
+2. To pull in changes, navigate inside of this shared directory. For example, let's say the repo we just copied is called `class-materials` if you are in the `classroom-COSC310-Winter-2022-T2` directory, and you type ls, you should see a directory called `class-materials`. Now type `cd class-materials`. You should now be inside of this directory. To get the most recent version of this directory, you simply have to type `git pull`. If you get an error about merge conflict, don't freak out! This can happen if you edit locations in files that are also changed by a professor. Professors should be doing their best to ensure this doesn't happen, but if it does, simply contact your professor or TA to get it worked out. Or even better, try to google the error message and try to fix it yourself!
 
 ### Resources
 * [Happy Git and GitHub for the useR](http://happygitwithr.com/)
