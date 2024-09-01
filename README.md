@@ -21,7 +21,7 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
  One thing that the shell does is allow you to navigate through all of your files by typing commands, rather than using your mouse. When you open up the shell, you can type `PWD`. This tells you the directory (folder) that you are in. You can also type `ls`. This lists the directories available to you. For example when I type `PWD`, the result is `/Users/sfazkace`. This tells me that I am in my own directory inside of my computer. When I type `ls`, I see directories such as Applications, Documents, etc... I can also enter into a directory using the `cd` command. If I type `cd Documents`, then I am now inside of the Documents directory. When I type `PWD`, the result is now `/Users/rpaulson/Documents`. I can go back to `/Users/rpaulson` by typing `cd ..`.
 
- Now I want to make a directory (note I'm using directory and folder interchangeably here). I can use the `mkdir` command. To make a directory called class-directory (it's good practice to not have spaces in your folder names), I can type `mkdir class-directory`. If you type `ls`, you'll now see `class-directory` appear. You can then enter `cd class-directory` to go into the class-directory. Finally, to make the two directories that I talked about, we type `mkdir lectures` and `mkdir labs`. Here is a basic illustration of how my directory structure looks for a class titled COSC 310 taken for Winter 2022 T2:
+ Now I want to make a directory (note I'm using directory and folder interchangeably here). I can use the `mkdir` command. To make a directory called class-directory (it's good practice to not have spaces in your folder names), I can type `mkdir class-directory`. If you type `ls`, you'll now see `class-directory` appear. You can then enter `cd class-directory` to go into the class-directory. Finally, to make the two directories that I talked about, we type `mkdir lectures` and `mkdir labs`. Here is a basic illustration of how my directory structure looks for a class titled COSC 310 taken for Winter 2024 T1:
     
 ```
 Users
@@ -36,7 +36,7 @@ Users
         │
         │
         |
-        |---classroom-COSC310-Winter-2022-T2
+        |---classroom-COSC310-Winter-2024-T1
             |
             |
             |
